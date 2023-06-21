@@ -16,9 +16,10 @@
 /* GENERAL */
 
 
-body{
+.container{
     background-image: url(https://img.freepik.com/free-vector/classic-vintage-rays-sunburst-retro-background_1017-33769.jpg?w=2000);
     background-size: cover;
+    min-height: 100vh;
 }
 .grid-container{
     max-width: 1000px;
@@ -27,6 +28,17 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#click-me{
+    border:none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #57665C;
+    padding: 15px 32px;
+    color: white;
+
 }
 
 .grid-container > .cell {
